@@ -1,5 +1,5 @@
-import { useAtom } from "jotai";
-import React, { useState } from "react";
+import { useAtom } from 'jotai';
+import  { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { addAtom, atomData, changeStatusAtom, deleteAtom, editAtom } from "./stores/jotaiStore";
